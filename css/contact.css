@@ -1,0 +1,275 @@
+    body {
+        margin: 0px;
+        font-family: 'Fira Sans', sans-serif;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        height: 10vh;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+        background-color: #ffffff;
+    }
+    
+    .nav-section-1 a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.6);
+        font-family: 'Fira Sans', sans-serif;
+        padding: 24px;
+        border-color: transparent;
+        border-width: 1px;
+        font-weight: 500;
+    }
+    
+    .nav-section-1 a:hover {
+        border-bottom: 2px solid #27A9E1;
+        background-color: #FAF9F5;
+    }
+    
+    .nav-section-2 a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.6);
+        font-family: 'Fira Sans', sans-serif;
+        padding: 24px;
+        border-color: transparent;
+        border-width: 1px;
+    }
+    
+    .nav-section-2 button {
+        font-family: 'Fira Sans', sans-serif;
+        padding: 12px;
+        border: none;
+        color: black;
+        font-weight: bold;
+        background-color: #FFD942;
+        cursor: pointer;
+    }
+    
+    .contact-us-1 {
+        padding: 140px;
+        background-image: url("/images/contact-us.png");
+    }
+    
+    .contact-us-1 h1 {
+        color: white;
+        text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+        font-size: 40px;
+        font-weight: 400;
+    }
+    
+    .contact-us-1 p {
+        font-size: 20px;
+        font-weight: 300;
+        text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+        color: white;
+    }
+    
+    .contact-us-1 button {
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: bold;
+        padding: 15px;
+        border: none;
+        border-radius: 3px;
+        background-color: #FAD04F;
+        cursor: pointer;
+    }
+    
+    .contact-us-1 button:hover {
+        background-color: #ffd942;
+    }
+    
+    .main-contact {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 50px;
+    }
+    
+    .content-1 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .content-1 button {
+        padding: 10px;
+        margin-bottom: 8px;
+        font-family: 'Fira Sans', sans-serif;
+        padding-right: 20px;
+        padding-left: 20px;
+        cursor: pointer;
+        font-size: 18px;
+        outline: none;
+        border: none;
+        border: 1px solid lightgray;
+    }
+    
+    .content-2 {
+        border: 1px solid lightgray;
+        padding: 50px;
+        text-align: center;
+    }
+    
+    .content-2 input {
+        padding: 10px;
+    }
+    
+    #title {
+        font-size: 18px;
+        color: #333333;
+        text-align: center;
+    }
+    
+    .num {
+        display: flex;
+        justify-content: space-around;
+        color: black;
+        font-size: 20px;
+    }
+    
+    #fill {
+        color: #535455;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    #company {
+        width: 73%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .btn {
+        padding: 10px;
+        width: 78%;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: bold;
+        border: none;
+        border-radius: 3px;
+        background-color: #FAD04F;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: #ffd942;
+    }
+    
+    #last {
+        font-style: italic;
+        font-size: 12px;
+    }
+    
+    .footer {
+        background-color: #232F3A;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+    
+    .help-section {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .help-section1-1 {
+        color: white;
+        display: flex;
+        overflow: visible;
+    }
+    
+    .help-section1-1 button {
+        margin-left: 10px;
+        padding: 10px;
+        margin-top: -6px;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: bold;
+        border: none;
+        background-color: #2FBB86;
+        color: white;
+    }
+    
+    .help-section1-2 {
+        color: white;
+    }
+    
+    .help-section1-2 span {
+        color: #27A9E1;
+        cursor: pointer;
+    }
+    
+    .help-section1-2 span:hover {
+        text-decoration: underline;
+        color: #2D7AA5;
+    }
+    
+    #hrtag {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    
+    .details-footer {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+        justify-content: center;
+    }
+    
+    .details-footer-1 {
+        color: white;
+        margin-right: 100px;
+    }
+    
+    .details-footer-1 span {
+        margin-top: 8px;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+    
+    .details-footer-1 p {
+        cursor: pointer;
+        margin-bottom: 8px;
+    }
+    
+    .details-footer-1 p:hover {
+        text-decoration: underline;
+        color: grey
+    }
+    
+    .details-footer-1-social {
+        margin-right: 100px;
+        margin-top: -31px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+    }
+    
+    .details-footer-1-social p {
+        font-size: 10px;
+    }
+    
+    .social-2 {
+        margin-top: 130px;
+    }
+    
+    a {
+        color: transparent;
+        text-decoration: none;
+        color: white;
+    }
+    
+    #clickbtn {
+        margin-left: 10px;
+        padding: 10px;
+        margin-top: -6px;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: bold;
+        border: none;
+        background-color: #2FBB86;
+        color: white;
+    }

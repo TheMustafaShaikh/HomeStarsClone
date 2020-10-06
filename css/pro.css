@@ -1,0 +1,229 @@
+body {
+    margin: 0px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.pro-header {
+    background-image: url("/images/pro-back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar img {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.header-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-1-1 {
+    padding: 40px;
+}
+
+.header-1-1 h1 {
+    color: white;
+    font-size: 45px;
+}
+
+.header-1-1 p {
+    color: white;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-1-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.box-header {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.box-header p {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#Business {
+    width: 92%;
+}
+
+#select {
+    width: 99%;
+    padding: 10px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#phone {
+    margin-left: 98px;
+}
+
+#postal-1 {
+    margin-right: 7px;
+}
+
+.box-header input {
+    padding: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: -10px;
+}
+
+.postal {
+    display: flex;
+}
+
+.btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    border: none;
+    font-weight: bold;
+    background-color: #FAD04F;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #f9c936;
+}
+
+.last {
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    margin-left: 28px;
+}
+
+.last span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.last span:hover {
+    color: lightgrey;
+}
+
+.main-content {
+    text-align: center;
+    padding: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.content-1 h6 {
+    color: #535455;
+    font-size: 18px;
+}
+
+.content-1 p {
+    color: #929394;
+}
+
+.box {
+    background-color: #F8F9FA;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.box h1 {
+    text-align: center;
+}
+
+#title {
+    font-size: 24px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-1 {
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.box-2 {
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.box-1 h1 {
+    color: #27A9E1;
+}
+
+.box-2 h1 {
+    color: #27A9E1;
+}
+
+.box-1 p {
+    color: #A6A7A8;
+}
+
+.box-2 p {
+    color: #A6A7A8;
+}
+
+#title-1 {
+    color: #575859;
+}
+
+#title-2 {
+    color: #575859;
+}
+
+.footer {
+    background: linear-gradient(rgba(35, 47, 58, 0.7), rgba(35, 47, 58, 0.7)), url("/images/footer-bg.jpg");
+    padding: 50px;
+    background-size: cover;
+    text-align: center;
+}
+
+.footer h1 {
+    color: white;
+    font-size: 29px;
+}
+
+.footer button {
+    padding: 14px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    background-color: #FAD04F;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+.footer button:hover {
+    background-color: #f9c936;
+}

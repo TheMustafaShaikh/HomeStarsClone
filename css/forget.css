@@ -1,0 +1,196 @@
+body {
+    margin: 0px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    height: 10vh;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+    background-color: #ffffff;
+    margin-bottom: 2px;
+}
+
+.navbar button {
+    font-family: 'Fira Sans', sans-serif;
+    padding: 12px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    background-color: #FFD942;
+    cursor: pointer;
+}
+
+.main-content {
+    background-color: #F8F9FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+}
+
+.main-content h1 {
+    margin: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    margin: 0px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 39%;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.box input {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+    transition: 0.5s ease-in-out;
+}
+
+.box input:focus {
+    box-shadow: 0px 0px 2px rgba(39, 169, 225, 1);
+    transition: 0.5s ease-in-out;
+}
+
+.box button {
+    padding: 8px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    background-color: #27A9E1;
+    color: white;
+    cursor: pointer;
+    border-color: #27A9E1;
+}
+
+.footer {
+    background-color: #232F3A;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.help-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.help-section1-1 {
+    color: white;
+    display: flex;
+    overflow: visible;
+}
+
+.help-section1-1 button {
+    margin-left: 10px;
+    padding: 10px;
+    margin-top: -6px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    border: none;
+    background-color: #2FBB86;
+    color: white;
+}
+
+.help-section1-2 {
+    color: white;
+}
+
+.help-section1-2 span {
+    color: #27A9E1;
+    cursor: pointer;
+}
+
+.help-section1-2 span:hover {
+    text-decoration: underline;
+    color: #2D7AA5;
+}
+
+#hrtag {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.details-footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.details-footer-1 {
+    color: white;
+    margin-right: 100px;
+}
+
+.details-footer-1 span {
+    margin-top: 8px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.details-footer-1 p {
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.details-footer-1 p:hover {
+    text-decoration: underline;
+    color: grey
+}
+
+.details-footer-1-social {
+    margin-right: 100px;
+    margin-top: -31px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.details-footer-1-social p {
+    font-size: 10px;
+}
+
+.social-2 {
+    margin-top: 130px;
+}
+
+a {
+    color: transparent;
+    text-decoration: none;
+    color: white;
+}
+
+#clickbtn {
+    margin-left: 10px;
+    padding: 10px;
+    margin-top: -6px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    border: none;
+    background-color: #2FBB86;
+    color: white;
+}

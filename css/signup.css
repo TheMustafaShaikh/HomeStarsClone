@@ -1,0 +1,167 @@
+body {
+    margin: 0px;
+    background-color: #FAF9F5;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+.navbar button {
+    padding: 18px;
+    background-color: #ffde5b;
+    font-family: 'Fira Sans', sans-serif;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.title {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+}
+
+.check-box {
+    display: flex;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.login-section {
+    padding: 80px;
+}
+
+.social-media-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.social-media-login button {
+    margin-bottom: 20px;
+}
+
+.login-section button {
+    padding: 8px;
+    padding-right: 80px;
+    padding-left: 80px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    background-color: #27A9E1;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.login-section button:hover {
+    background-color: #1d9bd1;
+}
+
+.login-section p {
+    font-weight: bold;
+    color: #535455;
+}
+
+.input-field {
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    width: 110%;
+    transition: 0.5s ease-in-out;
+    outline: none;
+    margin-top: -10px;
+}
+
+.input-field:focus {
+    box-shadow: 0px 0px 2px rgba(11%, 61%, 82%, 0.8);
+    transition: 0.5s ease-in-out;
+}
+
+.social-media-login {
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.social-media-login button {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+}
+
+.google {
+    color: #535455;
+    background-color: #ffffff;
+    box-shadow: 0 6px 6px -6px #535455;
+    padding: 0.73333em;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.google:hover {
+    background-color: #f2f2f2;
+}
+
+.facebook {
+    background-color: #3b5999;
+    color: White;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 6px 6px -6px #535455;
+    cursor: pointer;
+}
+
+.facebook:hover {
+    background-color: #344e87;
+}
+
+.forget-password {
+    color: #27A9E1;
+    text-align: center;
+    cursor: pointer;
+}
+
+.forget-password:hover {
+    text-decoration: underline;
+    color: #1d9bd1;
+}
+
+.new-account {
+    text-align: center;
+    font-size: 14px;
+}
+
+.new-account a {
+    color: #1d9bd1;
+}
+
+.last-content {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 80px;
+}
+
+.blue-show {
+    color: #1d9bd1;
+    cursor: pointer;
+}
+
+.blue-show:hover {
+    color: #27A9E1;
+    text-decoration: underline;
+}

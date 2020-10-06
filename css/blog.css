@@ -1,0 +1,236 @@
+body {
+    margin: 0px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 18px;
+    align-items: center;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+.navbar a {
+    margin-right: 18px;
+    text-decoration: none;
+    color: #535455;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar a:hover {
+    color: #37AFE3;
+    transition: 0.5s ease-in-out;
+}
+
+.btn {
+    font-size: 15px;
+    border: 1px solid #37AFE3;
+    padding: 2px;
+    color: #37AFE3 !important;
+}
+
+.btn:hover {
+    transition: 0.4s ease-in-out;
+    color: white !important;
+    background-color: #37AFE3;
+}
+
+.btn-yellow {
+    font-family: 'Fira Sans', sans-serif;
+    border: none;
+    border-radius: 2px;
+    padding: 3px;
+    padding-right: 5px;
+    font-weight: bold;
+    color: #3D3B34;
+    background-color: #FFD942;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.main-content {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.display-1 {
+    background-image: url("/images/design-1.jpg");
+    margin-right: 10px;
+    color: white;
+    background-size: cover;
+    height: 80vh;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.display-1 h1 {
+    font-size: 20px;
+}
+
+#first {
+    margin-top: 390px;
+}
+
+.display-2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.design2 {
+    background-image: url("/images/design-2.jpg");
+    height: 23vh;
+    background-position: center center;
+    padding: 10px;
+}
+
+.design2 h4 {
+    color: white;
+    margin-top: 120px;
+}
+
+.design3 {
+    background-image: url("/images/design-3.jpg");
+    height: 23vh;
+    background-position: center center;
+    padding: 10px;
+    margin-top: 3px;
+}
+
+.design3 h4 {
+    color: white;
+    margin-top: 120px;
+}
+
+.design4 {
+    background-image: url("/images/design-4.jpg");
+    height: 25vh;
+    background-position: center center;
+    padding: 10px;
+    margin-top: 7px;
+}
+
+.design4 h4 {
+    color: white;
+    margin-top: 120px;
+}
+
+.footer {
+    background-color: #232F3A;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.help-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.help-section1-1 {
+    color: white;
+    display: flex;
+    overflow: visible;
+}
+
+.help-section1-1 button {
+    margin-left: 10px;
+    padding: 10px;
+    margin-top: -6px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    border: none;
+    background-color: #2FBB86;
+    color: white;
+}
+
+.help-section1-2 {
+    color: white;
+}
+
+.help-section1-2 span {
+    color: #27A9E1;
+    cursor: pointer;
+}
+
+.help-section1-2 span:hover {
+    text-decoration: underline;
+    color: #2D7AA5;
+}
+
+#hrtag {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.details-footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.details-footer-1 {
+    color: white;
+    margin-right: 100px;
+}
+
+.details-footer-1 span {
+    margin-top: 8px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.details-footer-1 p {
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.details-footer-1 p:hover {
+    text-decoration: underline;
+    color: grey
+}
+
+.details-footer-1-social {
+    margin-right: 100px;
+    margin-top: -31px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.details-footer-1-social p {
+    font-size: 10px;
+}
+
+.social-2 {
+    margin-top: 130px;
+}
+
+a {
+    color: transparent;
+    text-decoration: none;
+    color: white;
+}
+
+#clickbtn {
+    margin-left: 10px;
+    padding: 10px;
+    margin-top: -6px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    border: none;
+    background-color: #2FBB86;
+    color: white;
+}
